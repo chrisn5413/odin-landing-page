@@ -91,4 +91,29 @@ button,
     border-radius: 5px;
     padding: 4px 20px;
     box-sizing: border-box;
+    border: 0px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    margin: 50px auto;
+}
+
+.call-to-action h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.call-to-action button {
+    align-self: center;
+    border: 2px solid white;
+}
+
+.information-section h2 {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
