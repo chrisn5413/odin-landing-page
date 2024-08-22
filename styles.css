@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     min-width: 1150px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* set all base container elements to set width to match solution */
@@ -70,7 +71,7 @@ a:link, a:hover, a:visited, a:active {
     padding: 0px;
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 .left-side {
@@ -112,8 +113,40 @@ button,
 }
 
 .information-section h2 {
-    display: flex;
+    text-align: center;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #1f2937;
+}
+
+.information-section .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 90px;
+}
+
+.information-section .card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 160px;
+    text-align: center;
+}
+
+.quote-section {
+    font-size: 36px;
+    color: #1f2937;
+    padding: 60px;
+    width: 745px;
+}
+
+.quote-section .quote {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-section .quote-source {
+    text-align: right;
+    font-weight: bold;
 }
