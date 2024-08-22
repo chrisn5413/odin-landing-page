@@ -1,27 +1,44 @@
 body {
     margin: 0px;
     padding: 0px;
-    display: flex;
-    flex-direction: column;
+    outline: red 4px solid;
 }
 
-body > div {
-    padding: 12px 200px;
+/* set all base container elements to set width to match solution */
+body > * {
+    width: 840px;
+    margin: auto;
+}
+.dark-bg-color > * {
+    width: 840px;
+    margin: auto;
 }
 
+.gray-bg-color > * {
+    width: 840px;
+    margin: auto;
+}
+
+/* give background color elements full page use */
 .dark-bg-color {
     background-color: #1f2937;
+    /* max-width: 100%; */
+    width: 100%;
 }
 
 .gray-bg-color {
     background-color: #E5E7EB;
+    /* max-width: 100%; */
+    width: 100%;
 }
 
+/* use flex to separate header sections */
 .header {
     display: flex;
     justify-content: space-between;
 }
 
+/* remove and replace default list style */
 .header ul {
     display: flex;
     gap: 10px;
@@ -37,6 +54,7 @@ body > div {
     color: #F9FAF8;
 }
 
+/*  */
 .starting-content {
     display: flex;
     justify-content: center;
@@ -48,6 +66,7 @@ body > div {
     flex: 1;
 }
 
+/* remove and replace default h1 style */
 .left-side > h1 {
     margin: 0px;
     padding: 0px;
@@ -61,9 +80,8 @@ body > div {
     color: #E5E7EB;
 }
 
+/* todo start: maybe replace with image */
 .right-side {
-    /* todo start: maybe replace with image */
     background-color: hsla(0, 0%, 54%, 0.705);
     color: white;
-    /* todo end */
 }
