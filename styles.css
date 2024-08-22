@@ -2,33 +2,26 @@ body {
     margin: 0px;
     padding: 0px;
     outline: red 4px solid;
+    min-width: 1140px;
 }
 
 /* set all base container elements to set width to match solution */
-body > * {
-    width: 840px;
-    margin: auto;
-}
-.dark-bg-color > * {
-    width: 840px;
-    margin: auto;
-}
-
+body > *,
+.dark-bg-color > *,
 .gray-bg-color > * {
     width: 840px;
     margin: auto;
 }
 
+
 /* give background color elements full page use */
 .dark-bg-color {
     background-color: #1f2937;
-    /* max-width: 100%; */
     width: 100%;
 }
 
 .gray-bg-color {
     background-color: #E5E7EB;
-    /* max-width: 100%; */
     width: 100%;
 }
 
@@ -84,4 +77,18 @@ body > * {
 .right-side {
     background-color: hsla(0, 0%, 54%, 0.705);
     color: white;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+button,
+.call-to-action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding: 4px 20px;
+    box-sizing: border-box;
 }
