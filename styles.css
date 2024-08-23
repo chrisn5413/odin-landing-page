@@ -151,3 +151,9 @@ button,
     text-align: right;
     font-weight: bold;
 }
+
+.footer {
+    text-align: center;
+    color: #E5E7EB;
+    padding: 20px;
+}
