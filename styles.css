@@ -144,6 +144,7 @@ button,
 .quote-section .quote {
     font-weight: 300;
     font-style: italic;
+    text-wrap: wrap;
 }
 
 .quote-section .quote-source {
