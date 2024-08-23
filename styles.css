@@ -9,7 +9,7 @@ body {
 body > *,
 .dark-bg-color > *,
 .gray-bg-color > * {
-    width: 840px;
+    width: 1000px;
     margin: auto;
 }
 
@@ -29,6 +29,7 @@ body > *,
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 /* remove and replace default list style */
@@ -57,7 +58,8 @@ a:link, a:hover, a:visited, a:active {
 .starting-content {
     display: flex;
     justify-content: center;
-    padding: 70px 0px;
+    padding: 100px 0px;
+    gap: 28px;
 }
 
 .left-side,
@@ -99,7 +101,7 @@ button,
     display: flex;
     justify-content: space-between;
     padding: 30px 80px;
-    margin: 50px auto;
+    margin: 70px auto;
 }
 
 .call-to-action h3 {
@@ -142,9 +144,7 @@ button,
 .quote-section {
     color: #1f2937;
     padding: 60px;
-    width: 690px;
-    /* width: 745px; */
-    /* width: 840px; */
+    width: 680px;
 }
 
 .quote-section .quote {
@@ -157,6 +157,8 @@ button,
 .quote-section .quote-source {
     text-align: right;
     font-weight: bold;
+    padding-right: 20px;
+    font-size: 20px;
 }
 
 .footer {
